@@ -1,0 +1,68 @@
+#######################################
+# Syntax Coloring Map For DFRobot_PN7150
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_PN7150	KEYWORD1
+DFRobot_PN7150_I2C	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+NxpNci_Connect	KEYWORD2
+NxpNci_Disconnect	KEYWORD2
+NxpNci_GetFwVersion	KEYWORD2
+NxpNci_ConfigureSettings	KEYWORD2
+NxpNci_ConfigureMode	KEYWORD2
+NxpNci_ConfigureParams	KEYWORD2
+NxpNci_StartDiscovery	KEYWORD2
+NxpNci_StopDiscovery	KEYWORD2
+NxpNci_WaitForDiscoveryNotification	KEYWORD2
+NxpNci_ProcessReaderMode	KEYWORD2
+NxpNci_ReaderTagCmd	KEYWORD2
+NxpNci_ReaderActivateNext	KEYWORD2
+NxpNci_ReaderReActivate	KEYWORD2
+NxpNci_ProcessCardMode	KEYWORD2
+NxpNci_CardModeReceive	KEYWORD2
+NxpNci_CardModeSend	KEYWORD2
+NxpNci_ProcessP2pMode	KEYWORD2
+
+#######################################
+# Instances (LITERAL1)
+#######################################
+
+NFC_SUCCESS	LITERAL1
+NFC_ERROR	LITERAL1
+INTF_UNDETERMINED	LITERAL1
+INTF_FRAME	LITERAL1
+INTF_ISODEP	LITERAL1
+INTF_NFCDEP	LITERAL1
+INTF_TAGCMD	LITERAL1
+PROT_UNDETERMINED	LITERAL1
+PROT_T1T	LITERAL1
+PROT_T2T	LITERAL1
+PROT_T3T	LITERAL1
+PROT_ISODEP	LITERAL1
+PROT_NFCDEP	LITERAL1
+PROT_T5T	LITERAL1
+PROT_MIFARE	LITERAL1
+MODE_POLL	LITERAL1
+MODE_LISTEN	LITERAL1
+MODE_MASK	LITERAL1
+TECH_PASSIVE_NFCA	LITERAL1
+TECH_PASSIVE_NFCB	LITERAL1
+TECH_PASSIVE_NFCF	LITERAL1
+TECH_ACTIVE_NFCA	LITERAL1
+TECH_ACTIVE_NFCF	LITERAL1
+TECH_PASSIVE_15693	LITERAL1
+NXPNCI_MODE_CARDEMU	LITERAL1
+NXPNCI_MODE_P2P	LITERAL1
+NXPNCI_MODE_RW	LITERAL1
+READ_NDEF	LITERAL1
+WRITE_NDEF	LITERAL1
+PRESENCE_CHECK	LITERAL1
